@@ -1,0 +1,358 @@
+make all --print-data-base --no-builtin-variables --no-builtin-rules --question
+make: *** No rule to make target 'all'.  Stop.
+
+# GNU Make 4.3
+# Built for x86_64-pc-linux-gnu
+# Copyright (C) 1988-2020 Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
+
+# Make data base, printed on Thu Aug 11 13:08:26 2022
+
+# Variables
+
+# environment
+GDK_BACKEND = x11
+# environment
+LC_ALL = C
+# environment
+GNOME_SHELL_SESSION_MODE = ubuntu
+# environment
+SNAP_INSTANCE_KEY = 
+# environment
+GJS_DEBUG_OUTPUT = stderr
+# environment
+LC_NAME = pl_PL.UTF-8
+# environment
+LC_NUMERIC = pl_PL.UTF-8
+# environment
+VSCODE_CWD = /home/user
+# environment
+LC_ADDRESS = pl_PL.UTF-8
+# default
+MAKE_COMMAND := make
+# environment
+XRDP_PULSE_SINK_SOCKET = xrdp_chansrv_audio_out_socket_10
+# environment
+QT_ACCESSIBILITY = 1
+# environment
+SGX_AESM_ADDR = 1
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# environment
+SNAP_INSTANCE_NAME = code
+# environment
+GDK_PIXBUF_MODULEDIR = /snap/code/104/usr/lib/x86_64-linux-gnu/gdk-pixbuf-2.0/2.10.0/loaders
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# default
+.VARIABLES := 
+# environment
+PWD = /home/user/develop/userSpace_gpioBlink
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# environment
+XDG_DATA_DIRS = /usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# automatic
+%F = $(notdir $%)
+# environment
+VSCODE_CODE_CACHE_PATH = /home/user/.config/Code/CachedData/6d9b74a70ca9c7733b29f0456fd8195364076dda
+# environment
+LANG = C
+# default
+.LOADED := 
+# default
+.INCLUDE_DIRS = /usr/local/include /usr/include /usr/include
+# makefile
+MAKEFLAGS = pqrR
+# makefile (from 'Makefile', line 9)
+_OBJS := main.o
+# makefile
+CURDIR := /home/user/develop/userSpace_gpioBlink
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
+# environment
+LESSOPEN = | /usr/bin/lesspipe %s
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# environment
+MFLAGS = -pqrR
+# environment
+SSH_AUTH_SOCK = /run/user/1000/keyring/ssh
+# default
+.SHELLFLAGS := -c
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# makefile (from 'Makefile', line 1)
+MAKEFILE_LIST := Makefile
+# environment
+SNAP_REEXEC = 
+# automatic
+@F = $(notdir $@)
+# environment
+VSCODE_PID = 3913
+# environment
+XDG_SESSION_TYPE = x11
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# environment
+BAMF_DESKTOP_FILE_HINT = /var/lib/snapd/desktop/applications/code_code.desktop
+# environment
+SESSION_MANAGER = local/user-Virtual-Machine:@/tmp/.ICE-unix/1157,unix/user-Virtual-Machine:/tmp/.ICE-unix/1157
+# automatic
+*F = $(notdir $*)
+# environment
+CHROME_DESKTOP = code-url-handler.desktop
+# environment
+DBUS_SESSION_BUS_ADDRESS = unix:path=/run/user/1000/bus
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# environment
+VSCODE_NLS_CONFIG = {"locale":"en-us","availableLanguages":{},"_languagePackSupport":true}
+# default
+MAKE_HOST := x86_64-pc-linux-gnu
+# makefile (from 'Makefile', line 10)
+OBJS = $(patsubst %, $(BUILD_DIR)%, $(_OBJS))
+# environment
+GNOME_DESKTOP_SESSION_ID = this-is-deprecated
+# makefile
+SHELL = /bin/sh
+# default
+MAKECMDGOALS := all
+# environment
+XMODIFIERS = @im=ibus
+# environment
+UID = 1000
+# environment
+GJS_DEBUG_TOPICS = JS ERROR;JS LOG
+# environment
+SHLVL = 0
+# environment
+MAKELEVEL := 0
+# default
+MAKE = $(MAKE_COMMAND)
+# environment
+SNAP_COOKIE = gZGDktXmeS7xYHJwKbduATJD0an5cAH6Eh7IekkI6qzlxlSmJHe0
+# environment
+PATH = /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/opt/pi_toolchain/bin:/opt/pi_toolchain/bin:/opt/pi_toolchain/bin:/opt/pi_toolchain/bin:~/Downloads/testInst/crosstool-ng-1.25.0/build/armv8-rpi4-linux-gnueabihf/buildtools/bin
+# default
+MAKEFILES := 
+# environment
+XRDP_PULSE_SOURCE_SOCKET = xrdp_chansrv_audio_in_socket_10
+# environment
+LC_MONETARY = pl_PL.UTF-8
+# automatic
+^F = $(notdir $^)
+# environment
+SNAP_USER_COMMON = /home/user/snap/code/common
+# environment
+LC_TIME = pl_PL.UTF-8
+# environment
+SNAP = /snap/code/104
+# environment
+INVOCATION_ID = e56352867a9d47b4936547bab12d626d
+# environment
+SNAP_REVISION = 104
+# environment
+SNAP_REAL_HOME = /home/user
+# makefile (from 'Makefile', line 5)
+TARGET_NAME :=  build/userSpace_gpioBlink
+# makefile (from 'Makefile', line 4)
+_TARGET_NAME := userSpace_gpioBlink
+# environment
+LC_TELEPHONE = pl_PL.UTF-8
+# environment
+LESSCLOSE = /usr/bin/lesspipe %s %s
+# automatic
+?F = $(notdir $?)
+# environment
+XDG_CURRENT_DESKTOP = Unity
+# environment
+LS_COLORS = 
+# automatic
++F = $(notdir $+)
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = ubuntu:GNOME
+# 'override' directive
+GNUMAKEFLAGS := 
+# environment
+LOGNAME = user
+# environment
+GIO_LAUNCHED_DESKTOP_FILE = /var/lib/snapd/desktop/applications/code_code.desktop
+# environment
+SNAP_ARCH = amd64
+# environment
+PULSE_SCRIPT = /etc/xrdp/pulse/default.pa
+# makefile
+.DEFAULT_GOAL := build/userSpace_gpioBlink
+# environment
+SYSTEMD_EXEC_PID = 1187
+# environment
+DISPLAY = :10.0
+# environment
+USER = user
+# environment
+GTK_MODULES = gail:atk-bridge
+# default
+MAKE_VERSION := 4.3
+# environment
+DISABLE_WAYLAND = 1
+# environment
+SNAP_DATA = /var/snap/code/104
+# environment
+SNAP_CONTEXT = gZGDktXmeS7xYHJwKbduATJD0an5cAH6Eh7IekkI6qzlxlSmJHe0
+# environment
+MANAGERPID = 850
+# environment
+LC_MEASUREMENT = pl_PL.UTF-8
+# environment
+GIO_LAUNCHED_DESKTOP_FILE_PID = 3862
+# environment
+SSH_AGENT_PID = 1060
+# environment
+_ = /snap/code/104/usr/share/code/code
+# environment
+LC_PAPER = pl_PL.UTF-8
+# environment
+XDG_RUNTIME_DIR = /run/user/1000
+# environment
+XRDP_SOCKET_PATH = /run/xrdp/sockdir
+# environment
+GPG_AGENT_INFO = /run/user/1000/gnupg/S.gpg-agent:0:1
+# environment
+GDK_PIXBUF_MODULE_FILE = /home/user/snap/code/common/.cache/gdk-pixbuf-loaders.cache
+# environment
+JOURNAL_STREAM = 8:21016
+# environment
+XDG_SESSION_CLASS = user
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# makefile (from 'Makefile', line 2)
+BUILD_DIR = build/
+# environment
+HOME = /home/user
+# environment
+QT_IM_MODULE = ibus
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# environment
+VSCODE_IPC_HOOK = /run/user/1000/vscode-16068fa4-1.70.1-main.sock
+# environment
+SNAP_NAME = code
+# environment
+GSETTINGS_SCHEMA_DIR = /snap/code/104/usr/share/glib-2.0/schemas
+# environment
+IM_CONFIG_PHASE = 1
+# default
+.RECIPEPREFIX := 
+# automatic
+<F = $(notdir $<)
+# makefile (from 'Makefile', line 7)
+DEPS := 
+# environment
+SNAP_VERSION = 6d9b74a7
+# environment
+XRDP_SESSION = 1
+# default
+SUFFIXES := 
+# environment
+VSCODE_CLI = 1
+# environment
+ELECTRON_NO_ATTACH_CONSOLE = 1
+# environment
+SNAP_COMMON = /var/snap/code/common
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell nocomment grouped-target extra-prereqs archives jobserver output-sync check-symlink load
+# makefile (from 'Makefile', line 1)
+CC = ~/Downloads/testInst/crosstool-ng-1.25.0/build/armv8-rpi4-linux-gnueabihf/buildtools/bin/armv8-rpi4-linux-gnueabihf-gcc
+# environment
+SNAP_USER_DATA = /home/user/snap/code/104
+# environment
+XDG_MENU_PREFIX = gnome-
+# environment
+LC_IDENTIFICATION = pl_PL.UTF-8
+# environment
+SNAP_LIBRARY_PATH = /var/lib/snapd/lib/gl:/var/lib/snapd/lib/gl32:/var/lib/snapd/void
+# variable set hash-table stats:
+# Load=132/1024=13%, Rehash=0, Collisions=4/170=2%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+ 
+
+# . (device 2049, inode 2375211): 6 files, no impossibilities.
+
+# 6 files, no impossibilities in 1 directories.
+
+# Implicit Rules
+
+build/%.o: %.c
+#  recipe to execute (from 'Makefile', line 14):
+	$(CC) -c -o $@ $<
+
+# 1 implicit rules, 0 (0.0%) terminal.
+# Files
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  Last modified 2022-08-11 11:11:54.540325073
+#  File has been updated.
+#  Successfully updated.
+
+clean:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 20):
+	rm $(TARGET_NAME) $(OBJS)
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+all:
+#  Command line target.
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has not been updated.
+
+build/userSpace_gpioBlink: build/main.o
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 17):
+	$(CC) -o $@ $^
+
+# Not a target:
+build/main.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# files hash-table stats:
+# Load=7/1024=1%, Rehash=0, Collisions=0/18=0%
+# VPATH Search Paths
+
+# No 'vpath' search paths.
+
+# No general ('VPATH' variable) search path.
+
+# strcache buffers: 1 (0) / strings = 16 / storage = 149 B / avg = 9 B
+# current buf: size = 8162 B / used = 149 B / count = 16 / avg = 9 B
+
+# strcache performance: lookups = 22 / hit rate = 27%
+# hash-table stats:
+# Load=16/8192=0%, Rehash=0, Collisions=0/22=0%
+# Finished Make data base on Thu Aug 11 13:08:26 2022
+
+ 

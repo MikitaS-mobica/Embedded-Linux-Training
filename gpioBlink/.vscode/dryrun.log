@@ -1,0 +1,5 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/home/user/develop/gpioBlink'
+make ARCH=arm CROSS_COMPILE=arm-linux-gnueabihf- -C ~/rpi_kernel/linux/ M=/home/user/develop/gpioBlink modules
+make: Leaving directory '/home/user/develop/gpioBlink'
+ 

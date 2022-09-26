@@ -1,0 +1,5 @@
+make --dry-run --keep-going --print-directory
+make: Entering directory '/home/user/develop/userSpace_gpioBlink'
+make: 'build/userSpace_gpioBlink' is up to date.
+make: Leaving directory '/home/user/develop/userSpace_gpioBlink'
+ 

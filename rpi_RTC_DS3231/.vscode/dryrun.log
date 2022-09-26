@@ -1,0 +1,5 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/home/user/develop/rpi_RTC_DS3231'
+make ARCH=arm64 CROSS_COMPILE=aarch64-linux-gnu- -C ~/rpi_kernel/5.15.56-v8+/linux/ M=/home/user/develop/rpi_RTC_DS3231 modules
+make: Leaving directory '/home/user/develop/rpi_RTC_DS3231'
+ 
